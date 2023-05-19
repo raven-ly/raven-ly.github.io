@@ -5,12 +5,21 @@
     <link>/tag/drawing/</link>
       <atom:link href="/tag/drawing/index.xml" rel="self" type="application/rss+xml" />
     <description>Drawing</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Lee Qianqian Cui © 2023  </copyright><lastBuildDate>Wed, 29 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Lee Qianqian Cui © 2023  </copyright><lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu60761c8660dd385c9ef61215a2ff23d1_212698_512x512_fill_lanczos_center_3.png</url>
       <title>Drawing</title>
       <link>/tag/drawing/</link>
     </image>
+    
+    <item>
+      <title>My AMAZING tattoo idea</title>
+      <link>/project/feather-iv/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      <guid>/project/feather-iv/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;javascript:history.back()&#34; class=&#34;back&#34;&gt;« BACK&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>My AMAZING tattoo idea</title>
