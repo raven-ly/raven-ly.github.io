@@ -228,6 +228,8 @@
   </url><url>
     <loc>/author/</loc>
   </url><url>
+    <loc>/author/</loc>
+  </url><url>
     <loc>/cat/</loc>
   </url><url>
     <loc>/code/</loc>
@@ -236,7 +238,9 @@
   </url><url>
     <loc>/posters/</loc>
   </url><url>
-    <loc>/psychology/</loc>
+    <loc>/psych/</loc>
+  </url><url>
+    <loc>/authors/</loc>
   </url><url>
     <loc>/authors/</loc>
   </url><url>
