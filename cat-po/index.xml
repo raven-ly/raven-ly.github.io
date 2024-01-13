@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cat-poes | LEE CUI</title>
+    <title>Cat-Poes | LEE CUI</title>
     <link>/cat-po/</link>
       <atom:link href="/cat-po/index.xml" rel="self" type="application/rss+xml" />
-    <description>Cat-poes</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Lee Qianqian Cui © 2023  </copyright><lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate>
+    <description>Cat-Poes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Lee Qianqian Cui © 2024  </copyright><lastBuildDate>Wed, 03 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu60761c8660dd385c9ef61215a2ff23d1_212698_512x512_fill_lanczos_center_3.png</url>
-      <title>Cat-poes</title>
+      <title>Cat-Poes</title>
       <link>/cat-po/</link>
     </image>
     
