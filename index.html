@@ -396,7 +396,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/illustration/"><span>ILLUSTRATION</span></a>
+          <a class="nav-link " href="/animation/"><span>ANIMATION</span></a>
         </li>
 
         
@@ -418,7 +418,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/animation/"><span>ANIMATION</span></a>
+          <a class="nav-link " href="/illustration/"><span>ILLUSTRATION</span></a>
         </li>
 
         
@@ -541,27 +541,44 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
+    
     var images = [
       'img/sunset.jpg',
       'img/feather.jpg',
-                  'img/whale.jpg',
-      'img/galaxy-new.jpg',
-
-                  "img/my_planet.jpg",
-                  "img/sailing.jpg" 
-                  
+      'img/whale.jpg',
+      'img/my_planet.jpg',
+      'img/sailing.jpg',
+      'ani/butterfly.gif'
     ]; 
     var randomIndex = Math.floor(Math.random() * images.length);
     var imgElement = document.querySelector('.fullscreen-image img');
     imgElement.src = images[randomIndex];
     imgElement.alt = 'Random Image';
+
+    
+    var greetingText = document.getElementById('greetingText');
+    var now = new Date();
+    var hours = now.getHours(); 
+
+    if (hours >= 5 && hours < 12) {
+      greetingText.innerHTML = 'Morning.<br>Step into magic.';
+    } else if (hours >= 12 && hours < 17) {
+      greetingText.innerHTML = 'Good afternoon.<br>Step into magic.';
+    } else if (hours >= 17 && hours < 21) {
+      greetingText.innerHTML = 'Good evening.<br>Magic awaits.';
+    } else {
+      greetingText.innerHTML = 'Good night.<br>Dream in magic.';
+    }
   });
 </script>
+
+
 <div class="fullscreen-image">
-    <img src="/img/feahter.jpg" alt="Random Image" />
+    <img src="/img/sunset.jpg" alt="Random Image" />
 </div>
 
 
+<div class="greeting" id="greetingText"></div>
 
 
 
@@ -581,205 +598,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-->
 
 
 
