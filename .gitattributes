@@ -1,3 +1,4 @@
 ani/*.mp4 filter=lfs diff=lfs merge=lfs -text
 ani/butterfly.mp4 filter=lfs diff=lfs merge=lfs -text
 ani/scene-4-2.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
