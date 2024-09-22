@@ -2,54 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/cat-po/lagoon/</loc>
-    <lastmod>2023-05-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cat-po/</loc>
-    <lastmod>2023-05-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/drawing/</loc>
-    <lastmod>2023-05-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2023-05-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2023-05-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cat-po/beacthchair/</loc>
-    <lastmod>2023-04-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cat-po/art-gallery/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cat-po/beach/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cat-po/bike/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cat-po/conference/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cat-po/dream/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cat-po/garden/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cat-po/ivroof/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cat-po/nap/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cat-po/party/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/cat-po/schoolday/</loc>
-    <lastmod>2023-03-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/about/</loc>
   </url><url>
     <loc>/animation/</loc>
@@ -66,6 +18,10 @@
   </url><url>
     <loc>/categories/</loc>
   </url><url>
+    <loc>/</loc>
+  </url><url>
     <loc>/publication_types/</loc>
+  </url><url>
+    <loc>/tags/</loc>
   </url>
 </urlset>
