@@ -535,7 +535,25 @@
     
     
 
-    <p>Hi there! I&rsquo;m Lee. In a nutshell i&rsquo;m a craftswoman who enjoys creating colorful stuff inspired by mother nature.</p>
+    <h3 id="pspan-idgreetingtextspan-feel-right-at-home-in-my-magical-worldp"><p><span id="greetingText"></span> Feel right at home in my magical world.</p></h3>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const greetingText = document.getElementById("greetingText");
+    const now = new Date();
+    const hours = now.getHours();
+
+    if (hours >= 5 && hours < 12) {
+        greetingText.innerHTML = "Good Morning!";
+    } else if (hours >= 12 && hours < 17.5) {
+        greetingText.innerHTML = "Good afternoon!";
+    } else if (hours >= 17.5 && hours < 21) {
+        greetingText.innerHTML = "Good evening! ";
+    } else {
+        greetingText.innerHTML = "Good night! ";
+    }
+});
+</script>
+<p>I&rsquo;m Lee. In a nutshell i&rsquo;m a craftswoman who enjoys creating colorful stuff inspired by mother nature.</p>
 <p>I’m currently finishing up a Ph.D. in Psychological and Brain Sciences at UC Santa Barbara. My background has provided me with a unique understanding of attention, perception, and emotions—insights that I incorporate into my visual art to engage audiences and craft innovative visual narratives.</p>
 <p>I’m fluent in Blender, After Effects, Procreate, Clip Studio Paint, Photoshop, Python, JavaScript, and HTML/CSS. My experience in grad school has prepared me to handle stressful situations and learn new techniques fast. I’m open to opportunities in 2D/3D animation, visual development, illustration, character design or any other related fields. 
 <a href="https://docs.google.com/document/d/1nbRB1b_rUlMC9t6v6acDRRI__gtP2zVgJLEFUVt6zJ4/edit?usp=sharing" target="_blank" rel="noopener">[Resume]</a> 
@@ -653,50 +671,11 @@
     Lee Cui © 2025
   </p>
 
-  
-  
-
-
-
-
-
-  
-  
-  
-  
-
-  
-  
-  
-    
-      
-    
-  
-
-  
-
-  
-  <p class="powered-by copyright-license-text">
-    This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
-  </p>
-  
-
-  <p class="powered-by footer-license-icons">
-    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">
-      <img src="https://search.creativecommons.org/static/img/cc_icon.svg" alt="CC icon">
-      <img src="https://search.creativecommons.org/static/img/cc-by_icon.svg" alt="CC by icon">
-      <img src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" alt="CC NC icon">
-      
-        <img src="https://search.creativecommons.org/static/img/cc-nd_icon.svg" alt="CC ND icon">
-        
-      
-    </a>
-  </p>
 
 
 
   <p class="powered-by">
-   <p>Published with Github Pages & <a href="https://wowchemy.com">Academic theme </a>for <a href="https://gohugo.io">Hugo</a>.</p>
+   <p>Published with Github Pages [it's free oh yeah] & <a href="https://wowchemy.com">Academic theme </a>for <a href="https://gohugo.io">Hugo [it's free oh yeah] </a>.</p>
 
     
     <span class="float-right" aria-hidden="true">
