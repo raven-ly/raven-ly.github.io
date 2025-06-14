@@ -402,13 +402,6 @@
           
           
           <li class="nav-item">
-            <a class="nav-link" href="https://donothinginc.github.io/vr"><span>VR/AR</span></a>
-          </li>
-          
-        
-          
-          
-          <li class="nav-item">
             <a class="nav-link" href="/about/"><span>ABOUT</span></a>
           </li>
           
@@ -431,8 +424,6 @@
 
       
       <ul class="navbar-nav social-icons d-md-inline-flex ml-auto">
-        
-          
         
           
         
@@ -552,89 +543,95 @@
     </h1>
 
     
-    <div class="hero-lead">
-
-
-
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
+    <div class="hero-lead"><body class="hero-page">
+<div id="video-block">
+  
+  
+  
+  
     
-    var images = [
-      'img/sunset.jpg',
-      'img/feather.jpg',
-      'img/whale.jpg',
-      'img/my_planet.jpg',
-      'img/sailing.jpg',
     
-    ]; 
-    var randomIndex = Math.floor(Math.random() * images.length);
-    var imgElement = document.querySelector('.fullscreen-image img');
-    imgElement.src = images[randomIndex];
-    imgElement.alt = 'Random Image';
-
+  
+  
+  
+  
+  
     
-    var greetingText = document.getElementById('greetingText');
-    var now = new Date();
-    var hours = now.getHours(); 
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  <video class="fullscreen-video" autoplay loop muted >
+    <source src="/img/showreel.mp4" type="video/mp4">
+  </video>
+  
+  
 
-    if (hours >= 5 && hours < 12) {
-      greetingText.innerHTML = 'Morning.<br>Step into magic.';
-    } else if (hours >= 12 && hours < 17.5) {
-      greetingText.innerHTML = 'Good afternoon.<br>Step into magic.';
-    } else if (hours >= 17.5 && hours < 21) {
-      greetingText.innerHTML = 'Good evening.<br>Magic awaits.';
-    } else {
-      greetingText.innerHTML = 'Good night.<br>Dream in magic.';
-    }
-  });
-</script>
-
-
-<div class="fullscreen-image">
-    <img src="/img/galaxy-new.jpg" alt="Random Image" />
 </div>
+<div id="image-block">
+  
+  
+  
+  
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      
+      var images = [
+        'img/sunset.jpg',
+        'img/feather-full.png',
+        'img/whale-full.jpg',
+        'img/my_planet_full.jpg',
+        'img/sailing-full.png',
+        'img/k/coral.jpg',
+      
+      ]; 
+      var randomIndex = Math.floor(Math.random() * images.length);
+      var imgElement = document.querySelector('.fullscreen-image img');
+      imgElement.src = images[randomIndex];
+      imgElement.alt = 'Random Image';
+  
+      
+      var greetingText = document.getElementById('greetingText');
+      var now = new Date();
+      var hours = now.getHours(); 
+  
+      if (hours >= 5 && hours < 12) {
+        greetingText.innerHTML = 'Morning.<br>Step into magic.';
+      } else if (hours >= 12 && hours < 17.5) {
+        greetingText.innerHTML = 'Good afternoon.<br>Step into magic.';
+      } else if (hours >= 17.5 && hours < 21) {
+        greetingText.innerHTML = 'Good evening.<br>Magic awaits.';
+      } else {
+        greetingText.innerHTML = 'Good night.<br>Dream in magic.';
+      }
+    });
+  </script>
+  
+  
+  <div class="fullscreen-image">
+      <img src="/img/alone.jpg" alt="Random Image" />
+  </div>
+  
+  
+  <div class="greeting" id="greetingText"></div>
+  
+  
+  
+  
+  
 
-
-<div class="greeting" id="greetingText"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
+<script>
+  const showVideo = Math.random() < 0.2;
+  document.getElementById("video-block").style.display = showVideo ? "block" : "none";
+  document.getElementById("image-block").style.display = showVideo ? "none" : "block";
+</script>
 </div>
     
 
