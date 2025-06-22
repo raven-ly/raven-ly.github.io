@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lee Cui | LEE CUI</title>
+    <link>/author/lee-cui/</link>
+      <atom:link href="/author/lee-cui/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lee Cui</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Lee Cui © 2025  </copyright><lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu60761c8660dd385c9ef61215a2ff23d1_212698_512x512_fill_lanczos_center_3.png</url>
+      <title>Lee Cui</title>
+      <link>/author/lee-cui/</link>
+    </image>
+    
+    <item>
+      <title>The Making of Mirror (While Being Frugal)</title>
+      <link>/post/mirror/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>/post/mirror/</guid>
+      <description>
+
+
+
+
+
+  
+  &lt;details class=&#34;print:hidden xl:hidden&#34; &gt;
+    &lt;summary&gt;Table of Contents&lt;/summary&gt;
+    &lt;div class=&#34;text-sm&#34;&gt;
+      &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#challenge&#34;&gt;Challenge&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#my-unique-approach&#34;&gt;My Unique Approach&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#texture-contrast&#34;&gt;Texture Contrast&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#reverse-lighting&#34;&gt;Reverse Lighting&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#camera-movement&#34;&gt;Camera movement&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#mood-change-based-on-color&#34;&gt;Mood change based on color&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#toon-stylized-character-design&#34;&gt;Toon-Stylized Character Design&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#what-ive-learned&#34;&gt;What I&amp;rsquo;ve learned&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#verdict&#34;&gt;Verdict&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#credits&#34;&gt;Credits&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+    &lt;/div&gt;
+  &lt;/details&gt;
+
+
+
+&lt;h2 id=&#34;challenge&#34;&gt;Challenge&lt;/h2&gt;
+&lt;p&gt;Creating Mirror involved three major constraints:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;an extremely limited budget&lt;/li&gt;
+&lt;li&gt;restricted rendering resources,&lt;/li&gt;
+&lt;li&gt;limited time availability, as I was working on my PhD in Psychology full-time.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;With only a basic computer setup, access to high-end rendering pipelines was not feasible.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/mirror-slider/budget.jpg&#34; alt=&#34;budget image&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;my-unique-approach&#34;&gt;My Unique Approach&lt;/h2&gt;
+&lt;p&gt;In Mirror, I explored various ways to use visual language to tell a compelling story—not just for aesthetics, but to deepen emotion and narrative impact. Through experimentation, I found that &lt;strong&gt;toon shading combined with line art in an NPR (non-photorealistic rendering) environment&lt;/strong&gt; using &lt;strong&gt;Blender&lt;/strong&gt; was the sweet spot. This approach not only reduced rendering time but also aligned beautifully with the film’s surreal and stylized tone.&lt;/p&gt;
+&lt;h3 id=&#34;texture-contrast&#34;&gt;Texture Contrast&lt;/h3&gt;
+&lt;p&gt;I wanted to create a visual environment with &lt;strong&gt;texture contrast&lt;/strong&gt;—juxtaposing smooth, clean surfaces with more &lt;strong&gt;jittery, paper-like textures&lt;/strong&gt; to emphasize mood and visual rhythm, just like I did in my illustrations. This contrast helps reinforce the mood and visual rhythm of the film, amplifying its dreamlike atmosphere.&lt;/p&gt;
+&lt;div style=&#34;display: flex; gap: 5px; justify-content: center; flex-wrap: wrap; text-align: center;&#34;&gt;
+ &lt;div style=&#34;width: 380px;&#34;&gt;
+    &lt;div style=&#34;height: 400px; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/vd-3.png&#34; alt=&#34;Texture contrast - animation&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Animation&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;width: 255px;&#34;&gt;
+    &lt;div style=&#34;height: 400px; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/k/feather.jpg&#34; alt=&#34;Texture contrast - illustration 1&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Illustration&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;width: 255px;&#34;&gt;
+    &lt;div style=&#34;height: 400px; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/k/feather-black.jpg&#34; alt=&#34;Texture contrast - illustration 2&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Illustration&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;reverse-lighting&#34;&gt;Reverse Lighting&lt;/h3&gt;
+&lt;p&gt;I experimented with toon shading, but intentionally avoided replicating Japanese anime styles or hyperrealistic Western 3D aesthetics. Instead, I developed a hybrid style that emphasizes how characters interact with light.&lt;/p&gt;
+&lt;p&gt;One unconventional decision: I created &lt;strong&gt;&amp;ldquo;reverse lighting&amp;rdquo;&lt;/strong&gt; effects, where the character’s face appears darker under a spotlight. This produced &lt;strong&gt;an eerie, otherworldly feel&lt;/strong&gt;—perfect for a film that plays with themes of illusion and unreality. In the Blender NPR (non-photorealistic rendering) community, this kind of light manipulation is still quite rare, so it felt like an exciting new territory.&lt;/p&gt;
+&lt;div style=&#34;display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; text-align: center;&#34;&gt;
+ &lt;div style=&#34;width: 295px;&#34;&gt;
+    &lt;div style=&#34;height: 400px; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/light-4.png&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Reverse Lighting (Hard) &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;width: 295px;&#34;&gt;
+    &lt;div style=&#34;height: 400px; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/light-2.png&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Reverse Lighting (Soft) &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;width: 295px;&#34;&gt;
+    &lt;div style=&#34;height: 400px; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/light-1.png&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Reverse Lighting w Line Texture&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;width: 900px;&#34;&gt;
+    &lt;div style=&#34;height: 500px; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/light-3.png&#34; alt=&#34;Texture contrast - illustration 2&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Reverse Lighting - Environment&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;camera-movement&#34;&gt;Camera movement&lt;/h3&gt;
+&lt;p&gt;Additionally, I adopted camera techniques &lt;strong&gt;inspired by documentaries&lt;/strong&gt;—including handheld movements and imperfect pans—to create &lt;strong&gt;a raw, observational feel&lt;/strong&gt;. This approach reinforced the illusion that viewers were witnessing a surreal game show or social experiment, intensifying emotional tension through both framing and motion.&lt;/p&gt;
+&lt;div style=&#34;display: flex; gap: 5px; justify-content: center; flex-wrap: wrap; text-align: center;&#34;&gt;
+ &lt;div style=&#34;width: 450px;&#34;&gt;
+    &lt;div style=&#34;height: auto; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/camera-1.gif&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: contain;&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;width: 450px;&#34;&gt;
+    &lt;div style=&#34;height: auto; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/camera-2.gif&#34;&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: contain;&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;mood-change-based-on-color&#34;&gt;Mood change based on color&lt;/h3&gt;
+&lt;p&gt;Color played a central role in visual storytelling. By &lt;strong&gt;shifting tones and palettes&lt;/strong&gt;, I communicated emotional undercurrents and guided the viewer’s intuition.
+For instance, when the character enters a heightened state of alertness or a critical event is about to unfold, I used a dominant red to create urgency and draw the audience in.&lt;/p&gt;
+&lt;div style=&#34;display: flex; gap: 5px; justify-content: center; flex-wrap: wrap; text-align: center;&#34;&gt;
+ &lt;div style=&#34;width: 450px;&#34;&gt;
+    &lt;div style=&#34;height: auto; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/color-1.gif&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;width: 450px;&#34;&gt;
+    &lt;div style=&#34;height: auto; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/color-2.gif&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;toon-stylized-character-design&#34;&gt;Toon-Stylized Character Design&lt;/h3&gt;
+&lt;p&gt;Due to technological and budget limitations, I avoided heavy realistic cloth simulations and instead painted the character’s body like a tight jumpsuit. To add life and movement, I included a cape and a bowtie, both of which respond to simulated wind to &lt;strong&gt;reinforce the dreamlike, surreal atmosphere&lt;/strong&gt;. These design choices not only &lt;strong&gt;made rendering lighter&lt;/strong&gt; but also helped &lt;strong&gt;build a visual identity&lt;/strong&gt; that felt unique and intentional.&lt;/p&gt;
+&lt;div style=&#34;display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; text-align: center;&#34;&gt;
+ &lt;div style=&#34;width: 400px;&#34;&gt;
+    &lt;div style=&#34;height: 600px; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/clothing-1.jpg&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Stylized Outfit&lt;/div&gt;
+  &lt;/div&gt;
+ &lt;div style=&#34;width: 400px;&#34;&gt;
+    &lt;div style=&#34;height: 600px; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/clothing-2.png&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Lighting-Responsive Outfit&lt;/div&gt;
+  &lt;/div&gt;
+&lt;div style=&#34;width: 950px;&#34;&gt;
+  &lt;div style=&#34;height: 500px; overflow: hidden;&#34;&gt;
+    &lt;img src=&#34;/img/mirror-slider/clothing-4.jpg&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: contain;&#34; /&gt;
+  &lt;/div&gt;
+  &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;
+    Surreal Ambiance
+    &lt;br&gt;
+    &lt;span style=&#34;font-size: 0.75rem; color: #777;&#34;&gt;
+      Lotus base model by 寅虎 (Yin Hu); shader development by me.
+    &lt;/span&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+  &lt;/div&gt;
+&lt;h2 id=&#34;what-ive-learned&#34;&gt;What I&amp;rsquo;ve learned&lt;/h2&gt;
+&lt;p&gt;I discovered that I’m very good at being frugal—and honestly, I think &lt;strong&gt;my ancestors would be proud&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Even with limited resources, no funding, and a single workstation, I was able to make something deeply personal and artistically ambitious. Blender’s open community and wealth of tutorials made the learning curve possible to overcome.&lt;/p&gt;
+&lt;p&gt;I spent about a year making the film—and nearly the same amount of time polishing, tweaking, and obsessing over the smallest details. The process taught me that creativity often thrives under constraint, and that style can be forged from necessity.&lt;/p&gt;
+&lt;h2 id=&#34;verdict&#34;&gt;Verdict&lt;/h2&gt;
+&lt;p&gt;I was really having a lot of fun throughout the entire process. Working with limited resources pushed me to be more inventive and intentional with every detail. But if I had access to better hardware, more rendering power, or even a small team, I would definitely love to expand the scope—explore more dynamic scenes, richer lighting, and expressive character animation. Still, I&amp;rsquo;m proud of what I created with what I had. In the end, constraints sparked creativity.&lt;/p&gt;
+&lt;small style=&#34;color: gray;&#34;&gt;
+&lt;h2 id=&#34;credits&#34;&gt;Credits&lt;/h2&gt;
+&lt;p&gt;Special thanks to the YouTube creators whose tutorials on toon shading helped me greatly in achieving the desired style. I’m also grateful to 寅虎 for making the Lotus base models . Additionally, I would like to thank the talented Kam residents in Guizhou, China, whose voices were sampled for the Kam Grand Choir used in the soundtrack. Music and sound effects by Universfield, Dream-Protocol, and Denis Pavlov Music, courtesy of Pixabay. Additional 3D models adapted from Sketchfab contributors including K. Kang, Arnold Konrad, Hancock, FUJi, Richard Robert, Benjamin Weimer, and 3DHaupt.
+&lt;/small&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

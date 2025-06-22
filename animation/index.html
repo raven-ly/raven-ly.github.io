@@ -20,7 +20,7 @@
   
   
 
-  
+  <meta name="author" content="Lee Cui (she/her)">
 
   
   
@@ -378,8 +378,22 @@
         
           
           
-          <li class="nav-item">
-            <a class="nav-link" href="/animation/"><span>ANIMATION</span></a>
+          <li class="nav-item dropdown">
+              
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+<span>ANIMATION</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/animation/#showreel"><span>SHOWREEL</span></a>
+              
+                <a class="dropdown-item" href="/animation/#mirror-2025"><span>MIRROR (2025)</span></a>
+              
+                <a class="dropdown-item" href="/animation/#vd"><span>VISUAL DEVELOPMENT</span></a>
+              
+                <a class="dropdown-item" href="/animation/#char-design"><span>CHARACTER DESIGN</span></a>
+              
+            </div>
           </li>
           
         
@@ -387,6 +401,13 @@
           
           <li class="nav-item">
             <a class="nav-link" href="/illustration/"><span>ILLUSTRATION</span></a>
+          </li>
+          
+        
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/post/"><span>BLOG</span></a>
           </li>
           
         
@@ -415,6 +436,8 @@
 
       
       <ul class="navbar-nav social-icons d-md-inline-flex ml-auto">
+        
+          
         
           
         
@@ -510,7 +533,7 @@
   
   
 
-  <section id="projects-1" class="home-section wg-featurette   "  >
+  <section id="showreel" class="home-section wg-featurette   "  >
     <div class="container">
       
 
@@ -523,42 +546,127 @@
     <h1 id="showreel"><strong>Showreel</strong></h1>
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1015191873?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="SHOWREEL"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <br>
-<h1 id="independent-film"><strong>Independent Film</strong></h1>
+
+  </div>
+  
+
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="mirror-2025" class="home-section wg-featurette   "  >
+    <div class="container">
+      
+
+
+<div class="row featurette">
+  
+
+  
+  <div class="col-md-12">
+    <h1 id="independent-film"><strong>Independent Film</strong></h1>
 <h2 id="mirror-2025"><strong>MIRROR (2025)</strong></h2>
-<br> 
-<div style="display: flex; justify-content: center;">
-    <img src="/ani/NARAKA-1.png" class="naraka-img" alt="">
-    <img src="/ani/mirror-poster.png" class="naraka-img" alt="">
-    <img src="/ani/NARAKA-2.png" class="naraka-img" alt="">
+<div class="mirror-section">
+  <!-- Left: Single Poster -->
+  <div class="mirror-image">
+    <img src="/ani/mirror-poster-red.jpg" class="naraka-img" alt="Mirror Poster">
+  </div>
+  <!-- Right: Description and Link -->
+  <div class="mirror-text">
+    <p><strong><em>Mirror (2025)</em> </strong> is an independent animated short, developed as an experiment in toon shading and emotional storytelling through vibrant color. The film was crafted on an extremely low budget using Blender.
+Story, direction, animation, and production by Lee.
+<p></P><em>Brief Synopsis</em> : Lost in a shifting nightmare of mirrors, Naraka searches for the truth. As reflections distort, she uncovers a haunting reality—she is merely a brain suspended in water, trapped in an unreal reality.</p>
+ <p></p>
+    <p>Read more about <a href="/post/mirror/#slider" target="_blank" rel="noopener">the making of <em>Mirror</em> (with no money)</a></p>
+   <p> Access to full film coming soon.</p>
+   <p>↓ ↓ ↓ Scroll down for more stills.</p>
+  </div>
 </div>
 <style>
-  .naraka-img {
-      max-width: 34%;
-      display: relative;
-      Margin: 5px;
-    object-fit: cover;
+  .mirror-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Ensures it stacks on small screens */
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.mirror-image {
+  flex: 0 0 50%;
+  max-width: 100%%;
+}
+
+.naraka-img {
+  width: 70%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.mirror-text {
+  flex: 1;
+  max-width: 100%;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .mirror-section {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .image-row {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 10px;
+  .mirror-image,
+  .mirror-text {
+    max-width: 90%;
   }
+}
 
-  .image-container {
-      flex: 1 1 40%;
-      max-width: 540px;
-  }
 
-  @media (max-width: 768px) {
-      .image-container {
-          flex: 1 1 100%;
-          max-width: none;
-      }
-  }
+
 </style>
 <p></p>
+<!-- YouTube link hide for now-->
+<!-- 
+<div style="display: flex; justify-content: center;">
+<iframe width="1920" height="608"  src="https://www.youtube.com/embed/CPqYUyyhGug?si=aVlquYAYEIgDtLAp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div> 
+-->
 <h2 id="stills"><strong>Stills</strong></h2>
 
 
@@ -769,24 +877,6 @@
       }
   }
 </style>
-<!--
-<div style="display: flex; justify-content: center;">
-    <img src="/ani/stills/still-1.jpg" class="mirror-stills" alt="">
-    <img src="/ani/stills/still-2.jpg" class="mirror-stills" alt="">
-</div>
-<div style="display: flex; justify-content: center;">
-    <img src="/ani/stills/still-3.jpg" class="mirror-stills" alt="">
-    <img src="/ani/stills/still-8.png" class="mirror-stills" alt="">
-</div>
-<div style="display: flex; justify-content: center;">
-    <img src="/ani/stills/still-5.jpg" class="mirror-stills" alt="">
-    <img src="/ani/stills/still-4.jpg" class="mirror-stills" alt="">
-</div>
-<div style="display: flex; justify-content: center;">
-    <img src="/ani/stills/still-7.jpg" class="mirror-stills" alt="">
-    <img src="/ani/stills/still-6.jpg" class="mirror-stills" alt="">
-</div>
--->
 
   </div>
   
@@ -827,7 +917,7 @@
   
   
 
-  <section id="projects-2" class="home-section wg-featurette   "  >
+  <section id="vd" class="home-section wg-featurette   "  >
     <div class="container">
       
 
@@ -1054,13 +1144,64 @@
 <div style="display: flex; justify-content: center;">
 <iframe width="1920" height="608"  src="https://www.youtube.com/embed/CNjDcH2xzzY?si=MWI08v20H_cle2bn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-<h1 id="original-character-design"><strong>Original Character Design</strong></h1>
-<h2 id="autumn-magical-girl-modeling-in-progress">Autumn Magical Girl (modeling in progress)</h2>
+
+  </div>
+  
+
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="char-design" class="home-section wg-featurette   "  >
+    <div class="container">
+      
+
+
+<div class="row featurette">
+  
+
+  
+  <div class="col-md-12">
+    <h1 id="original-character-design"><strong>Original Character Design</strong></h1>
+<h2 id="autumn-magical-girl">Autumn Magical Girl</h2>
 <div style="display: flex; justify-content: center;">
     <img src="/ani/og-design-1.jpg"  alt="NARAKA Poster">
 </div>
 <br>
 <br>
+<h2 id="more-content-coming-soon">More content coming soon</h2>
 
   </div>
   
@@ -1162,9 +1303,9 @@
 
 
 
-
+<p> AI USE PROHIBITED  </p>
   <p class="powered-by">
-   <p>Published with Github Pages [it's free oh yeah] & <a href="https://wowchemy.com">Academic theme </a>for <a href="https://gohugo.io">Hugo [it's free oh yeah] </a>.</p>
+   <p>Published with Github Pages & <a href="https://wowchemy.com">Academic theme </a>for <a href="https://gohugo.io">Hugo </a>.</p>
 
     
     <span class="float-right" aria-hidden="true">
