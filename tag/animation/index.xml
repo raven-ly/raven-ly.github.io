@@ -87,20 +87,20 @@
 &lt;p&gt;One unconventional decision: I created &lt;strong&gt;&amp;ldquo;reverse lighting&amp;rdquo;&lt;/strong&gt; effects, where the character’s face appears darker under a spotlight. This produced &lt;strong&gt;an eerie, otherworldly feel&lt;/strong&gt;—perfect for a film that plays with themes of illusion and unreality. In the Blender NPR (non-photorealistic rendering) community, this kind of light manipulation is still quite rare, so it felt like an exciting new territory.&lt;/p&gt;
 &lt;div style=&#34;display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; text-align: center;&#34;&gt;
  &lt;div style=&#34;width: 295px;&#34;&gt;
-    &lt;div style=&#34;height: 400px; overflow: hidden; &#34;&gt;
-      &lt;img src=&#34;/img/mirror-slider/light-4.png&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+    &lt;div style=&#34;height: 300px; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/light-4.png&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 90%; object-fit: cover;&#34; /&gt;
     &lt;/div&gt;
     &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Reverse Lighting (Hard) &lt;/div&gt;
   &lt;/div&gt;
   &lt;div style=&#34;width: 295px;&#34;&gt;
-    &lt;div style=&#34;height: 400px; overflow: hidden; &#34;&gt;
+    &lt;div style=&#34;height: 300px; overflow: hidden; &#34;&gt;
       &lt;img src=&#34;/img/mirror-slider/light-2.png&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
     &lt;/div&gt;
     &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Reverse Lighting (Soft) &lt;/div&gt;
   &lt;/div&gt;
   &lt;div style=&#34;width: 295px;&#34;&gt;
-    &lt;div style=&#34;height: 400px; overflow: hidden; &#34;&gt;
-      &lt;img src=&#34;/img/mirror-slider/light-1.png&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+    &lt;div style=&#34;height: 300px; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/light-1.png&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 90%; object-fit: cover;&#34; /&gt;
     &lt;/div&gt;
     &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Reverse Lighting w Line Texture&lt;/div&gt;
   &lt;/div&gt;
@@ -147,17 +147,17 @@ For instance, when the character enters a heightened state of alertness or a cri
 &lt;h3 id=&#34;toon-stylized-character-design&#34;&gt;Toon-Stylized Character Design&lt;/h3&gt;
 &lt;p&gt;Due to technological and budget limitations, I avoided heavy realistic cloth simulations and instead painted the character’s body like a tight jumpsuit. To add life and movement, I included a cape and a bowtie, both of which respond to simulated wind to &lt;strong&gt;reinforce the dreamlike, surreal atmosphere&lt;/strong&gt;. These design choices not only &lt;strong&gt;made rendering lighter&lt;/strong&gt; but also helped &lt;strong&gt;build a visual identity&lt;/strong&gt; that felt unique and intentional.&lt;/p&gt;
 &lt;div style=&#34;display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; text-align: center;&#34;&gt;
- &lt;div style=&#34;width: 400px;&#34;&gt;
+ &lt;div style=&#34;width: 450px;&#34;&gt;
     &lt;div style=&#34;height: 600px; overflow: hidden; &#34;&gt;
       &lt;img src=&#34;/img/mirror-slider/clothing-1.jpg&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
     &lt;/div&gt;
     &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Stylized Outfit&lt;/div&gt;
   &lt;/div&gt;
- &lt;div style=&#34;width: 400px;&#34;&gt;
-    &lt;div style=&#34;height: 600px; overflow: hidden; &#34;&gt;
-      &lt;img src=&#34;/img/mirror-slider/clothing-2.png&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+ &lt;div style=&#34;width: 300px;&#34;&gt;
+    &lt;div style=&#34;height: 600px; overflow: hidden;&#34;&gt;
+      &lt;img src=&#34;/ani/cd/mirror-char-turnaround.gif&#34; alt=&#34;Lighting-Responsive Outfit (GIF)&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
     &lt;/div&gt;
-    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Lighting-Responsive Outfit&lt;/div&gt;
+    &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Turnaround&lt;/div&gt;
   &lt;/div&gt;
 &lt;div style=&#34;width: 950px;&#34;&gt;
   &lt;div style=&#34;height: 500px; overflow: hidden;&#34;&gt;
@@ -166,7 +166,7 @@ For instance, when the character enters a heightened state of alertness or a cri
   &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;
     Surreal Ambiance
     &lt;br&gt;
-    &lt;span style=&#34;font-size: 0.75rem; color: #777;&#34;&gt;
+    &lt;span style=&#34;font-size: 0.75rem; color: lightgrey;&#34;&gt;
       Lotus base model by 寅虎 (Yin Hu); shader development by me.
     &lt;/span&gt;
   &lt;/div&gt;
