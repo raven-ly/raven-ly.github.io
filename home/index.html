@@ -572,58 +572,36 @@
   
   
   
-  
-  
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      
-      var images = [
-        'img/full-screen-img/sunset.webp',
-        'img/full-screen-img/feather-full.webp',
-        'img/full-screen-img/whale-full.webp',
-        'img/full-screen-img/my_planet_full.webp',
-        'img/full-screen-img/sailing-full.webp',
-        'img/full-screen-img/coral.webp',
-        'img/full-screen-img/mirror-tb.webp'
-  
-        
-        
-      ];
-  
-      var randomIndex = Math.floor(Math.random() * images.length);
-      var imgElement = document.querySelector('.fullscreen-image img');
-      imgElement.src = images[randomIndex];
-      imgElement.alt = 'Random Image';
-  
-      
-      var greetingText = document.getElementById('greetingText');
-      var now = new Date();
-      var hours = now.getHours(); 
-  
-      if (hours >= 5 && hours < 12) {
-        greetingText.innerHTML = 'Morning.<br>Step into magic.';
-      } else if (hours >= 12 && hours < 17.5) {
-        greetingText.innerHTML = 'Good afternoon.<br>Step into magic.';
-      } else if (hours >= 17.5 && hours < 21) {
-        greetingText.innerHTML = 'Good evening.<br>Magic awaits.';
-      } else {
-        greetingText.innerHTML = 'Good night.<br>Dream in magic.';
-      }
-    });
-  </script>
-  
-  
   <div class="fullscreen-image">
-      <img src="/img/galaxy-new.jpg" alt="Random Image" />
+    <img id="randomImage" src="" alt="Random Image" />
   </div>
   
   
   
   
   
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      
+      const images = [
+        '/img/full-screen-img/sunset.webp',
+        '/img/full-screen-img/feather-full.webp',
+        '/img/full-screen-img/whale-full.webp',
+        '/img/full-screen-img/my_planet_full.webp',
+        '/img/full-screen-img/sailing-full.webp',
+        '/img/full-screen-img/coral.webp',
+        '/img/full-screen-img/mirror-tb.webp'
+      ];
+  
+      
+      const randomIndex = Math.floor(Math.random() * images.length);
+      const imgElement = document.getElementById('randomImage');
+      imgElement.src = images[randomIndex];
+      imgElement.alt = 'Random Image';
   
   
-  
+    });
+  </script>
 
 </div>
 <script>
