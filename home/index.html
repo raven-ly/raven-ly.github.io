@@ -578,16 +578,18 @@
     document.addEventListener('DOMContentLoaded', function() {
       
       var images = [
-        'img/sunset.jpg',
-        'img/feather-full.jpg',
-        'img/whale-full.jpg',
-        'img/my_planet_full.jpg',
-        'img/sailing-full.png',
-        'img/k/coral.jpg',
-      'img/mirror-slider/mirror-tb.jpg'
-       
-      
-      ]; 
+        'img/full-screen-img/sunset.webp',
+        'img/full-screen-img/feather-full.webp',
+        'img/full-screen-img/whale-full.webp',
+        'img/full-screen-img/my_planet_full.webp',
+        'img/full-screen-img/sailing-full.webp',
+        'img/full-screen-img/coral.webp',
+        'img/full-screen-img/mirror-tb.webp',
+  
+        
+        
+      ];
+  
       var randomIndex = Math.floor(Math.random() * images.length);
       var imgElement = document.querySelector('.fullscreen-image img');
       imgElement.src = images[randomIndex];
@@ -612,7 +614,7 @@
   
   
   <div class="fullscreen-image">
-      <img src="/img/alone.jpg" alt="Random Image" />
+      <img src="/img/feather.jpg" alt="Random Image" />
   </div>
   
   
