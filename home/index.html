@@ -599,17 +599,57 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <div class="fullscreen-image">
-    <img id="randomImage" src="" alt="Random Image" />
+    <img
+      id="randomImage"
+      src=""
+      alt="Random Background"
+    />
+  
+    <noscript>
+      <img
+        src="/img/full-screen-img/sunset.webp"
+        alt="Fallback Image"
+        class="fallback"
+      />
+    </noscript>
   </div>
   
-  <style>
-     
-    #randomImage {
-      opacity: 0;
-      transition: opacity 0.6s ease-in-out;
-    }
-  </style>
   
   <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -625,9 +665,13 @@
   
       const randomIndex = Math.floor(Math.random() * images.length);
       const imgElement = document.getElementById('randomImage');
+  
+      
       imgElement.src = images[randomIndex];
+  
+      
       imgElement.onload = () => {
-        imgElement.style.opacity = 1; 
+        imgElement.style.opacity = 1;
       };
     });
   </script>
