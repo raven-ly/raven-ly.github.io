@@ -590,17 +590,47 @@
   
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <div class="fullscreen-image">
-    <img id="randomImage" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="Random Image" />
+    <img id="randomImage" src="" alt="Random Image" />
   </div>
   
-  
-  
-  
+  <style>
+     
+    #randomImage {
+      opacity: 0;
+      transition: opacity 0.6s ease-in-out;
+    }
+  </style>
   
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      
       const images = [
         '/img/full-screen-img/sunset.webp',
         '/img/full-screen-img/feather-full.webp',
@@ -611,13 +641,12 @@
         '/img/full-screen-img/mirror-tb.webp'
       ];
   
-      
       const randomIndex = Math.floor(Math.random() * images.length);
       const imgElement = document.getElementById('randomImage');
       imgElement.src = images[randomIndex];
-      imgElement.alt = 'Random Image';
-  
-  
+      imgElement.onload = () => {
+        imgElement.style.opacity = 1; 
+      };
     });
   </script>
 
