@@ -611,36 +611,16 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+              
   <div class="fullscreen-image">
     <img
       id="randomImage"
       src=""
       alt="Random Background"
     />
-  
     <noscript>
       <img
         src="/img/full-screen-img/sunset.webp"
@@ -648,8 +628,9 @@
         class="fallback"
       />
     </noscript>
-  </div>
   
+    <div id="greeting" class="greeting"></div>
+  </div>
   
   <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -663,17 +644,52 @@
         '/img/full-screen-img/mirror-tb.webp'
       ];
   
+  
+  
+      
       const randomIndex = Math.floor(Math.random() * images.length);
       const imgElement = document.getElementById('randomImage');
-  
-      
       imgElement.src = images[randomIndex];
-  
-      
       imgElement.onload = () => {
         imgElement.style.opacity = 1;
       };
-    });
+  
+      
+       const hours = new Date().getHours();
+       let greeting = '';
+  
+       if (hours >= 5 && hours < 12) {
+         greeting = 'Good morning!\nWelcome to Leeland!';
+       } else if (hours >= 12 && hours < 18) {
+         greeting = 'Good afternoon!\nEntering Leeland!';
+       } else if (hours >= 18 && hours < 22) {
+         greeting = 'Good evening!\nWelcome to Leeland!';
+       } else {
+         greeting = 'Good night!\nStay in Leeland!';
+       }
+  
+       
+       const greetingEl = document.getElementById('greeting');
+       let i = 0;
+  
+       function typeLetter() {
+         if (i < greeting.length) {
+           greetingEl.innerHTML += greeting.charAt(i);
+           i++;
+           setTimeout(typeLetter, 150);
+         } else {
+           
+           greetingEl.style.borderRight = 'none';
+           greetingEl.style.animation = 'none';
+         }
+       }
+  
+       
+       setTimeout(() => {
+         greetingEl.style.opacity = 1;
+         typeLetter();
+       }, 1000); 
+     });
   </script>
 
 </div>
