@@ -765,29 +765,16 @@ document.addEventListener("DOMContentLoaded", function () {
   <section id="contact" class="home-section wg-contact   "  >
     <div class="container">
       
-
-
-
-
-
 <div class="row contact-widget">
   <div class="col-12 col-lg-4 section-heading">
     <h1>Contact</h1>
-    
+    <p></p>
   </div>
+
   <div class="col-12 col-lg-8">
     
-
-    
-
-    
-    
-      
-      
-    
-
     <div class="mb-3">
-      <form name="contact" method="POST" action="https://formspree.io/f/xdkddbka%!(EXTRA string=lee.qianqian.cui@gmail.com)>
+      <form id="contact-form" action="https://formspree.io/f/xdkddbka" method="POST">
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">Name</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
@@ -801,34 +788,69 @@ document.addEventListener("DOMContentLoaded", function () {
           <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
         </div>
         <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+        <div id="form-response" class="mt-3" style="display:none;"></div>
       </form>
     </div>
-    
 
+    
     <ul class="fa-ul">
 
-      
 
-      
 
-      
-      
 
-      
 
-      
 
-      
 
-      
-      
+
+
+
+
+
+
 
     </ul>
-
-    
-
   </div>
 </div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("contact-form");
+  const responseEl = document.getElementById("form-response");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    try {
+      const res = await fetch(form.action, {
+        method: "POST",
+        headers: {
+          "Accept": "application/json"
+        },
+        body: formData
+      });
+
+      if (res.ok) {
+        form.reset();
+        responseEl.style.display = "block";
+        responseEl.className = "alert alert-success mt-3";
+        responseEl.innerText = "Thanks! Your message has been sent.";
+      } else {
+        const result = await res.json();
+        responseEl.style.display = "block";
+        responseEl.className = "alert alert-danger mt-3";
+        responseEl.innerText = result.error || "Oops! Something went wrong.";
+      }
+    } catch (error) {
+      responseEl.style.display = "block";
+      responseEl.className = "alert alert-danger mt-3";
+      responseEl.innerText = "Network error. Please try again later.";
+    }
+  });
+});
+</script>
 
     </div>
   </section>

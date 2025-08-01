@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/post/draw-feather-1/</loc>
+    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tag/animation/</loc>
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,6 +15,9 @@
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/category/demo/</loc>
+    <lastmod>2025-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/drawing/</loc>
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/author/lee-cui/</loc>

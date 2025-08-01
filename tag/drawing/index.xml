@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>drawing | LEE CUI</title>
+    <link>/tag/drawing/</link>
+      <atom:link href="/tag/drawing/index.xml" rel="self" type="application/rss+xml" />
+    <description>drawing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Lee Cui © 2025  </copyright><lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0c096fd88411ae42cd0d948d93861e86_38487_512x512_fill_lanczos_center_3.png</url>
+      <title>drawing</title>
+      <link>/tag/drawing/</link>
+    </image>
+    
+    <item>
+      <title> Started with Nothing… | Original Character Art in Procreate</title>
+      <link>/post/draw-feather-1/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>/post/draw-feather-1/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe 
+    src=&#34;https://www.youtube.com/embed/Qhs2HWla7Jk?si=pusPwIT8reK72fb8&#34; 
+    title=&#34;YouTube video player&#34;
+    frameborder=&#34;0&#34;
+    allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34;
+    referrerpolicy=&#34;strict-origin-when-cross-origin&#34;
+    allowfullscreen
+    style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.featured-image-wrapper {
+  display: none !important;
+}
+&lt;/style&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
