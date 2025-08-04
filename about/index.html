@@ -716,11 +716,25 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 <p>I&rsquo;m Lee. In a nutshell i&rsquo;m a craftswoman who enjoys creating colorful stuff inspired by mother nature.</p>
 <p>I’m currently finishing up a Ph.D. in Psychological and Brain Sciences at UC Santa Barbara. My background has provided me with a unique understanding of attention, perception, and emotions—insights that I incorporate into my visual art to engage audiences and craft innovative visual narratives.</p>
-<p>I’m fluent in Blender, Maya, ZBrush, After Effects, Procreate, Clip Studio Paint, Photoshop, Python, JavaScript, and HTML/CSS. My experience in grad school has prepared me to handle stressful situations and learn new techniques fast. I’m open to opportunities in visual development, character design, 3D animation, illustration or any other related fields.</p>
 
 
     <div class="row">
 
+      
+      <div class="col-md-5">
+        <h3>Skills</h3>
+        <ul class="ul-interests">
+          
+          <li>Blender, Maya, ZBrush, After Effects</li>
+          
+          <li>Procreate, Clip Studio Paint, Photoshop</li>
+          
+          <li>Python, JavaScript, HTML/CSS</li>
+          
+          <li>Strong eye for stylized visuals; skilled in toon shading and expressive character design</li>
+          
+        </ul>
+      </div>
       
 
       
@@ -731,7 +745,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">Ph.D., Psychical &amp; Brain Sciences, 2021 - present</p>
+              <p class="course">Ph.D., Psychical &amp; Brain Sciences, In Progress</p>
               <p class="institution">University of California, Santa Barbara</p>
             </div>
           </li>
@@ -790,17 +804,33 @@ document.addEventListener("DOMContentLoaded", function () {
     
     <div class="mb-3">
       <form id="contact-form" action="https://formspree.io/f/xdkddbka" method="POST">
-        <div class="form-group form-inline">
-          <label class="sr-only" for="inputName">Name</label>
-          <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
-        </div>
-        <div class="form-group form-inline">
-          <label class="sr-only" for="inputEmail">Email</label>
-          <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input type="text" name="first-name" class="form-control" placeholder="First Name" required>
+          </div>
+          <div class="form-group col-md-6">
+            <input type="text" name="last-name" class="form-control" placeholder="Last Name" required>
+          </div>
         </div>
         <div class="form-group">
-          <label class="sr-only" for="inputMessage">Message</label>
-          <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required></textarea>
+          <input type="email" name="email" class="form-control" placeholder="Your Email Address" required>
+        </div>
+        <div class="form-group">
+            <select name="inquiry-type" class="form-control" required>
+              <option value="" disabled selected>Select Inquiry Type</option>
+              <option value="Business Inquiry">Business Inquiry</option>
+              <option value="Work Opportunity">Hire Me</option>
+              <option value="Collaboration">Collaboration</option>
+              <option value="General">General</option>
+              <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <input type="text" name="subject" class="form-control" placeholder="Subject Line" required>
+        </div>
+
+        <div class="form-group">
+          <textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
         </div>
         <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
         <div id="form-response" class="mt-3" style="display:none;"></div>
@@ -809,20 +839,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
     <ul class="fa-ul">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      
     </ul>
   </div>
 </div>
