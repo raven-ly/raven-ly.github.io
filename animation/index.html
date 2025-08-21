@@ -711,6 +711,29 @@ Story, direction, animation, and production by Lee.
   }
 </style>
 
+<script>
+  Fancybox.bind('[data-fancybox]', {
+    animated: true,
+    showClass: 'fancybox-fadeIn',
+    hideClass: 'fancybox-fadeOut',
+    l10n: {
+      CLOSE: "×"
+    }
+  });
+</script>
+
+<style>
+  .fancybox-fadeOut {
+    animation: fadeOut 0.3s ease-in-out;
+  }
+
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+</style>
+
+
 <div class="stills">
   
 
@@ -851,7 +874,43 @@ Story, direction, animation, and production by Lee.
     
 
   
+  
 </div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+<script>
+  let scrollY = 0;
+  let originalHash = window.location.hash;
+
+  Fancybox.bind('[data-fancybox]', {
+    on: {
+      init: () => {
+        scrollY = window.scrollY;
+
+        
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+      },
+      destroy: () => {
+        setTimeout(() => {
+          window.scrollTo({ top: scrollY, behavior: 'instant' });
+
+          
+          if (originalHash) {
+            history.replaceState(null, '', window.location.pathname + window.location.search + originalHash);
+          }
+        }, 100);
+      }
+    }
+  });
+
+  
+  Fancybox.defaults.autoFocus = false;
+  Fancybox.defaults.placeFocusBack = false;
+</script>
 
 <style>
   .mirror-stills {
@@ -971,6 +1030,29 @@ Story, direction, animation, and production by Lee.
     }
   }
 </style>
+
+<script>
+  Fancybox.bind('[data-fancybox]', {
+    animated: true,
+    showClass: 'fancybox-fadeIn',
+    hideClass: 'fancybox-fadeOut',
+    l10n: {
+      CLOSE: "×"
+    }
+  });
+</script>
+
+<style>
+  .fancybox-fadeOut {
+    animation: fadeOut 0.3s ease-in-out;
+  }
+
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+</style>
+
 
 <div class="stills">
   
@@ -1112,7 +1194,43 @@ Story, direction, animation, and production by Lee.
     
 
   
+  
 </div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+<script>
+  let scrollY = 0;
+  let originalHash = window.location.hash;
+
+  Fancybox.bind('[data-fancybox]', {
+    on: {
+      init: () => {
+        scrollY = window.scrollY;
+
+        
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+      },
+      destroy: () => {
+        setTimeout(() => {
+          window.scrollTo({ top: scrollY, behavior: 'instant' });
+
+          
+          if (originalHash) {
+            history.replaceState(null, '', window.location.pathname + window.location.search + originalHash);
+          }
+        }, 100);
+      }
+    }
+  });
+
+  
+  Fancybox.defaults.autoFocus = false;
+  Fancybox.defaults.placeFocusBack = false;
+</script>
 
 <!--
 <div style="display: flex; justify-content: center;">
@@ -1233,6 +1351,29 @@ Story, direction, animation, and production by Lee.
   }
 </style>
 
+<script>
+  Fancybox.bind('[data-fancybox]', {
+    animated: true,
+    showClass: 'fancybox-fadeIn',
+    hideClass: 'fancybox-fadeOut',
+    l10n: {
+      CLOSE: "×"
+    }
+  });
+</script>
+
+<style>
+  .fancybox-fadeOut {
+    animation: fadeOut 0.3s ease-in-out;
+  }
+
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+</style>
+
+
 <div class="stills">
   
 
@@ -1351,7 +1492,43 @@ Story, direction, animation, and production by Lee.
     
 
   
+  
 </div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+<script>
+  let scrollY = 0;
+  let originalHash = window.location.hash;
+
+  Fancybox.bind('[data-fancybox]', {
+    on: {
+      init: () => {
+        scrollY = window.scrollY;
+
+        
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+      },
+      destroy: () => {
+        setTimeout(() => {
+          window.scrollTo({ top: scrollY, behavior: 'instant' });
+
+          
+          if (originalHash) {
+            history.replaceState(null, '', window.location.pathname + window.location.search + originalHash);
+          }
+        }, 100);
+      }
+    }
+  });
+
+  
+  Fancybox.defaults.autoFocus = false;
+  Fancybox.defaults.placeFocusBack = false;
+</script>
 
 <!--
 <div style="display: flex; justify-content: center;">
@@ -1438,20 +1615,46 @@ Story, direction, animation, and production by Lee.
 
   
   <div class="col-md-12">
-    <h1 id="original-character-design"><strong>Original Character Design</strong></h1>
+    <script>
+  Fancybox.bind('[data-fancybox]', {
+    animated: true,
+    showClass: 'fancybox-fadeIn',
+    hideClass: 'fancybox-fadeOut',
+    l10n: {
+      CLOSE: "×"
+    }
+  });
+</script>
+<style>
+  .fancybox-fadeOut {
+    animation: fadeOut 0.3s ease-in-out;
+  }
+
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+</style>
+<!-- Fancybox CSS & JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.css" />
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5/dist/fancybox/fancybox.umd.js"></script>
+<h1 id="original-character-design"><strong>Original Character Design</strong></h1>
+<!-- First Poster -->
 <div style="display: flex; justify-content: center;">
-    <img src="/ani/cd/og-design-1.jpg"  alt="NARAKA Poster">
+  <a href="/ani/cd/og-design-1.jpg" data-fancybox="char-gallery" data-caption="Lee Cui © 2025">
+    <img src="/ani/cd/og-design-1.jpg" alt="NARAKA Poster">
+  </a>
 </div>
+<!-- Poster with overlayed GIF -->
 <div style="position: relative; display: inline-block; height: 600px; margin-bottom: 2rem;">
-  <!-- Poster Image -->
-<p><img src="/ani/cd/mirror-char.jpg" alt="NARAKA Poster"
-style="height: 100%; object-fit: contain; display: block;" /></p>
-  <!-- Overlayed GIF Container (now relative to poster image) -->
+  <a href="/ani/cd/mirror-char.jpg" data-fancybox="char-gallery" data-caption="Mirror Character Design">
+    <img src="/ani/cd/mirror-char.jpg" alt="NARAKA Poster"
+         style="height: 100%; object-fit: contain; display: block;" />
+  </a>
   <div style="
     position: absolute;
     top: 0;
     left: 0;
-    transform: translateX(0%);
     width: 300px;
     height: 100%;
     overflow: hidden;
@@ -1459,14 +1662,17 @@ style="height: 100%; object-fit: contain; display: block;" /></p>
   ">
     <img src="/ani/cd/mirror-char-turnaround.gif" 
          alt="Lighting-Responsive Outfit (GIF)" 
-         style="width: 100%; height: 92%; object-fit: contain;" />
+         style="width: 100%; height: 100%; object-fit: contain;" />
   </div>
 </div>
+<!-- Side-by-side GIF and Poster -->
 <div style="display: flex; height: 600px; margin-bottom: 2rem;">
-  <!-- Left Image: Zoomed-in & cropped with watermark -->
+  <!-- Left Image -->
   <div style="height: 100%; aspect-ratio: auto; overflow: hidden; position: relative;">
-    <img src="/ani/cd/char-2.gif" alt="GIF"
-         style="height: 100%; transform: scale(1); object-fit: cover; display: block;" />
+    <a href="/ani/cd/char-2-updated.gif" data-fancybox="char-gallery" data-caption="Lee Cui © 2025">
+      <img src="/ani/cd/char-2-updated.gif" alt="GIF"
+           style="height: 100%; object-fit: cover; display: block;" />
+    </a>
     <div style="
       position: absolute;
       bottom: 5px;
@@ -1479,10 +1685,12 @@ style="height: 100%; object-fit: contain; display: block;" /></p>
       font-family: sans-serif;
     ">Lee Cui © 2025</div>
   </div>
-  <!-- Right Image: Normal with watermark -->
+  <!-- Right Image -->
   <div style="height: 100%; aspect-ratio: auto; overflow: hidden; position: relative;">
-    <img src="/ani/cd/char-2.jpg" alt="Poster"
-         style="height: 100%; object-fit: cover; display: block;" />
+    <a href="/ani/cd/char-2.jpg" data-fancybox="char-gallery" data-caption="Lee Cui © 2025">
+      <img src="/ani/cd/char-2.jpg" alt="Poster"
+           style="height: 100%; object-fit: cover; display: block;" />
+    </a>
     <div style="
       position: absolute;
       bottom: 5px;
@@ -1496,8 +1704,13 @@ style="height: 100%; object-fit: contain; display: block;" /></p>
     ">Lee Cui © 2025</div>
   </div>
 </div>
-<br>
-<br>
+<!-- Final Poster -->
+<div style="display: flex; justify-content: center;">
+  <a href="/ani/cd/char-3.jpg" data-fancybox="char-gallery" data-caption="Lee Cui © 2025">
+    <img src="/ani/cd/char-3.jpg" alt="NARAKA Poster">
+  </a>
+</div>
+<p><br><br></p>
 <h2 id="more-content-coming-soon">More content coming soon</h2>
 
   </div>
