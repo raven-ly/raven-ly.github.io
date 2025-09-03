@@ -104,9 +104,9 @@
     &lt;/div&gt;
     &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Reverse Lighting w Line Texture&lt;/div&gt;
   &lt;/div&gt;
-  &lt;div style=&#34;width: 900px;&#34;&gt;
-    &lt;div style=&#34;height: 500px; overflow: hidden; &#34;&gt;
-      &lt;img src=&#34;/img/mirror-slider/light-3.png&#34; alt=&#34;Texture contrast - illustration 2&#34; style=&#34;width: 100%; height: 100%; object-fit: cover;&#34; /&gt;
+  &lt;div style=&#34;width: 1000px;&#34;&gt;
+    &lt;div style=&#34;height: 550px; overflow: hidden; &#34;&gt;
+      &lt;img src=&#34;/img/mirror-slider/light-3.png&#34; alt=&#34;&#34; style=&#34;width: 100%; height: 100%; object-fit: actual;&#34; /&gt;
     &lt;/div&gt;
     &lt;div style=&#34;margin-top: 0.5rem; font-size: 0.9rem; color: #555;&#34;&gt;Reverse Lighting - Environment&lt;/div&gt;
   &lt;/div&gt;
