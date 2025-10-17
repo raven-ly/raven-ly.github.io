@@ -38,7 +38,7 @@
   
   
   
-  <meta name="theme-color" content="white">
+  <meta name="theme-color" content="#222222">
   
 
   
@@ -596,43 +596,71 @@
 
   
   <div class="col-md-12">
-    <h1 id="independent-films"><strong>Independent Film(s)</strong></h1>
+    <h1 id="independent-films"><strong>Independent Films</strong></h1>
 <h2 id="鏡-深-千-幻-心-夢-何-歸---mirror-2025"><strong>鏡 深 千 幻 心 夢 何 歸 ｜  MIRROR (2025)</strong></h2>
 <div class="mirror-section">
-  <!-- Left: Single Poster -->
+  <!-- Left Poster -->
   <div class="mirror-image">
-    <img src="/ani/mirror-poster-red.jpg" class="naraka-img" alt="Mirror Poster">
+    <img src="/ani/mirror-poster-red.webp" class="naraka-img" alt="Mirror Poster">
   </div>
-  <!-- Right: Description and Link -->
+  <!-- Right Poster with caption -->
+  <div class="mirror-image">
+    <img src="/awards/bcon2025.webp" class="naraka-img" alt="BCON 2025 Poster">
+  </div>
+  <!-- Description and Link -->
   <div class="mirror-text">
     <p><strong><em>Mirror (2025)</em> </strong> is an independent animated short, developed as an experiment in toon shading and emotional storytelling through vibrant color. The film was crafted on an extremely low budget using Blender.
-Story, direction, animation, and production by Lee.
-<p></P><em>Brief Synopsis</em> : Lost in a shifting nightmare of mirrors, Naraka searches for the truth. As reflections distort, she uncovers a haunting reality—she is merely a brain suspended in water, trapped in an unreal reality.</p>
- <p></p>
-    <p>Read more about <a href="/post/mirror/#slider" target="_blank" rel="noopener">the making of <em>Mirror</em> (with no money)</a></p>
-  </div>
+Story, direction, animation, and production by Lee.</p>
+    <p><em>Brief Synopsis</em> : Lost in a shifting nightmare of mirrors, Naraka searches for the truth. As reflections distort, she uncovers a haunting reality—she is merely a brain suspended in water, trapped in an unreal reality.</p>
+<p class="read-more">
+  <img src="/img/icons/open-book.png" class="read-more-icon" alt="Book Icon">
+  Read more about <a href="/post/mirror/#slider" target="_blank" rel="noopener"><em>Mirror</em> (with no money)</a>
+</p>
+<h3 class="achievements-title">
+  <img src="/img/icons/trophy.png" class="achievements-icon" alt="Trophy Icon">
+  Achievements:
+</h3>
+  <ul>
+    <li><strong>Invited Speaker</strong>, Blender Conference 2025, The Netherlands (presentation on the making of <em>Mirror</em>)</li>
+    <li><strong>Finalist</strong>, International Students Creative Award 2025, Japan (winner to be announced December 2025)</li>
+  </ul>
+  <p style="color: #999;"><small><em>BlenderCon 2025 Photo Credit to @venya.ventures</em></small></p>
+</div>
 </div>
 <style>
-  .mirror-section {
+.mirror-section {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: wrap; /* Ensures it stacks on small screens */
-  gap: 16px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: 20px;
 }
 
+/* Image wrappers */
 .mirror-image {
-  flex: 0 0 50%;
-  max-width: 100%%;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* Force same max height for both posters */
 .naraka-img {
-  width: 70%;
-  height: auto;
+  max-height: 400px; /* Adjust height as needed */
+  width: auto;       /* Maintain aspect ratio */
   display: block;
   border-radius: 8px;
+  object-fit: cover;  /* crops and fills the wrapper */
+
+}
+
+.poster-caption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #333;
 }
 
 .mirror-text {
@@ -641,8 +669,10 @@ Story, direction, animation, and production by Lee.
   text-align: left;
   font-size: 1rem;
   line-height: 1.6;
+ margin-left: 0.9rem;
 }
 
+/* Responsive adjustments */
 @media (max-width: 768px) {
   .mirror-section {
     flex-direction: column;
@@ -656,8 +686,8 @@ Story, direction, animation, and production by Lee.
 }
 
 
-
 </style>
+<p></style></p>
 <p></p>
 <!-- YouTube link hide for now-->
 <div style="display: flex; justify-content: center;">
@@ -741,9 +771,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/stills/still-2.png" >
+        <a data-fancybox="stills-stills" href="/ani/stills/still-1.webp" >
           <img
-            src="/ani/stills/still-2.png"
+            src="/ani/stills/still-1.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -752,9 +782,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/stills/still-3.png" >
+        <a data-fancybox="stills-stills" href="/ani/stills/still-2.webp" >
           <img
-            src="/ani/stills/still-3.png"
+            src="/ani/stills/still-2.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -763,9 +793,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/stills/still-4.png" >
+        <a data-fancybox="stills-stills" href="/ani/stills/still-3.webp" >
           <img
-            src="/ani/stills/still-4.png"
+            src="/ani/stills/still-3.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -774,9 +804,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/stills/still-8.png" >
+        <a data-fancybox="stills-stills" href="/ani/stills/still-4.webp" >
           <img
-            src="/ani/stills/still-8.png"
+            src="/ani/stills/still-4.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -785,9 +815,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/stills/still-12.png" >
+        <a data-fancybox="stills-stills" href="/ani/stills/still-5.webp" >
           <img
-            src="/ani/stills/still-12.png"
+            src="/ani/stills/still-5.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -796,9 +826,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/stills/still-10.png" >
+        <a data-fancybox="stills-stills" href="/ani/stills/still-6.webp" >
           <img
-            src="/ani/stills/still-10.png"
+            src="/ani/stills/still-6.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -807,9 +837,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/stills/still-5.png" >
+        <a data-fancybox="stills-stills" href="/ani/stills/still-7.webp" >
           <img
-            src="/ani/stills/still-5.png"
+            src="/ani/stills/still-7.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -818,9 +848,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/stills/still-6.png" >
+        <a data-fancybox="stills-stills" href="/ani/stills/still-8.webp" >
           <img
-            src="/ani/stills/still-6.png"
+            src="/ani/stills/still-8.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -829,9 +859,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/stills/still-7.png" >
+        <a data-fancybox="stills-stills" href="/ani/stills/still-9.webp" >
           <img
-            src="/ani/stills/still-7.png"
+            src="/ani/stills/still-9.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -840,9 +870,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/stills/still-1.png" >
+        <a data-fancybox="stills-stills" href="/ani/stills/still-10.webp" >
           <img
-            src="/ani/stills/still-1.png"
+            src="/ani/stills/still-10.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -851,9 +881,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/stills/still-9.png" >
+        <a data-fancybox="stills-stills" href="/ani/stills/still-11.webp" >
           <img
-            src="/ani/stills/still-9.png"
+            src="/ani/stills/still-11.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -862,9 +892,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/stills/still-11.png" >
+        <a data-fancybox="stills-stills" href="/ani/stills/still-12.webp" >
           <img
-            src="/ani/stills/still-11.png"
+            src="/ani/stills/still-12.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1061,9 +1091,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/vd/vd-1.png" >
+        <a data-fancybox="stills-stills" href="/ani/vd/vd-1.webp" >
           <img
-            src="/ani/vd/vd-1.png"
+            src="/ani/vd/vd-1.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1072,9 +1102,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/vd/vd-2.png" >
+        <a data-fancybox="stills-stills" href="/ani/vd/vd-2.webp" >
           <img
-            src="/ani/vd/vd-2.png"
+            src="/ani/vd/vd-2.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1083,9 +1113,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/vd/vd-3.png" >
+        <a data-fancybox="stills-stills" href="/ani/vd/vd-3.webp" >
           <img
-            src="/ani/vd/vd-3.png"
+            src="/ani/vd/vd-3.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1094,9 +1124,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/vd/vd-4.png" >
+        <a data-fancybox="stills-stills" href="/ani/vd/vd-4.webp" >
           <img
-            src="/ani/vd/vd-4.png"
+            src="/ani/vd/vd-4.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1105,9 +1135,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/vd/vd-5.png" >
+        <a data-fancybox="stills-stills" href="/ani/vd/vd-5.webp" >
           <img
-            src="/ani/vd/vd-5.png"
+            src="/ani/vd/vd-5.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1116,9 +1146,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/vd/vd-7.png" >
+        <a data-fancybox="stills-stills" href="/ani/vd/vd-6.webp" >
           <img
-            src="/ani/vd/vd-7.png"
+            src="/ani/vd/vd-6.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1127,9 +1157,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/vd/vd-6.png" >
+        <a data-fancybox="stills-stills" href="/ani/vd/vd-7.webp" >
           <img
-            src="/ani/vd/vd-6.png"
+            src="/ani/vd/vd-7.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1138,9 +1168,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/vd/vd-8.png" >
+        <a data-fancybox="stills-stills" href="/ani/vd/vd-8.webp" >
           <img
-            src="/ani/vd/vd-8.png"
+            src="/ani/vd/vd-8.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1149,9 +1179,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/vd/vd-9.png" >
+        <a data-fancybox="stills-stills" href="/ani/vd/vd-9.webp" >
           <img
-            src="/ani/vd/vd-9.png"
+            src="/ani/vd/vd-9.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1160,9 +1190,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/vd/vd-10.png" >
+        <a data-fancybox="stills-stills" href="/ani/vd/vd-10.webp" >
           <img
-            src="/ani/vd/vd-10.png"
+            src="/ani/vd/vd-10.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1171,9 +1201,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/vd/vd-11.png" >
+        <a data-fancybox="stills-stills" href="/ani/vd/vd-11.webp" >
           <img
-            src="/ani/vd/vd-11.png"
+            src="/ani/vd/vd-11.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1182,9 +1212,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/ani/vd/vd-12.png" >
+        <a data-fancybox="stills-stills" href="/ani/vd/vd-12.webp" >
           <img
-            src="/ani/vd/vd-12.png"
+            src="/ani/vd/vd-12.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1232,27 +1262,6 @@ Story, direction, animation, and production by Lee.
   Fancybox.defaults.placeFocusBack = false;
 </script>
 
-<!--
-<div style="display: flex; justify-content: center;">
-    <img src="/ani/vd/vd-1.png" class="mirror-stills" alt="">
-    <img src="/ani/vd/vd-3.png" class="mirror-stills" alt="">
-</div>
-
-<div style="display: flex; justify-content: center;">
-    <img src="/ani/vd/vd-4.png" class="mirror-stills" alt="">
-    <img src="/ani/vd/vd-5.png" class="mirror-stills" alt="">
-</div>
-
-<div style="display: flex; justify-content: center;">
-    <img src="/ani/vd/vd-2.png" class="mirror-stills" alt="">
-    <img src="/ani/vd/vd-6.png" class="mirror-stills" alt="">
-</div>
-
-<div style="display: flex; justify-content: center;">
-    <img src="/ani/vd/vd-8.png" class="mirror-stills" alt="">
-    <img src="/ani/vd/vd-7.png" class="mirror-stills" alt="">
-</div>
--->
 
   </div>
   
@@ -1381,9 +1390,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/img/k/goleta-beach-park.jpg" >
+        <a data-fancybox="stills-stills" href="/img/illustration/goleta-beach-park.webp" >
           <img
-            src="/img/k/goleta-beach-park.jpg"
+            src="/img/illustration/goleta-beach-park.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1392,9 +1401,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/img/k/mesa-rd.jpg" >
+        <a data-fancybox="stills-stills" href="/img/illustration/mesa-rd.webp" >
           <img
-            src="/img/k/mesa-rd.jpg"
+            src="/img/illustration/mesa-rd.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1403,9 +1412,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/img/k/flow.jpg" >
+        <a data-fancybox="stills-stills" href="/img/illustration/flow.webp" >
           <img
-            src="/img/k/flow.jpg"
+            src="/img/illustration/flow.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1414,9 +1423,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/img/whale-full.jpg" >
+        <a data-fancybox="stills-stills" href="/img/whale-full.webp" >
           <img
-            src="/img/whale-full.jpg"
+            src="/img/whale-full.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1425,9 +1434,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/img/k/moose.png" >
+        <a data-fancybox="stills-stills" href="/img/illustration/moose.webp" >
           <img
-            src="/img/k/moose.png"
+            src="/img/illustration/moose.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1436,9 +1445,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/img/k/moon.jpg" >
+        <a data-fancybox="stills-stills" href="/img/illustration/moon.webp" >
           <img
-            src="/img/k/moon.jpg"
+            src="/img/illustration/moon.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1447,9 +1456,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/img/k/coral.jpg" >
+        <a data-fancybox="stills-stills" href="/img/illustration/coral.webp" >
           <img
-            src="/img/k/coral.jpg"
+            src="/img/illustration/coral.webp"
             alt=""
             loading="lazy"
             class="stills-img"
@@ -1458,31 +1467,9 @@ Story, direction, animation, and production by Lee.
       
         
         
-        <a data-fancybox="stills-stills" href="/img/k/4.jpg" >
+        <a data-fancybox="stills-stills" href="/img/illustration/4.webp" >
           <img
-            src="/img/k/4.jpg"
-            alt=""
-            loading="lazy"
-            class="stills-img"
-          >
-        </a>
-      
-        
-        
-        <a data-fancybox="stills-stills" href="/ani/vd/storke.jpg" >
-          <img
-            src="/ani/vd/storke.jpg"
-            alt=""
-            loading="lazy"
-            class="stills-img"
-          >
-        </a>
-      
-        
-        
-        <a data-fancybox="stills-stills" href="/img/feather.jpg" >
-          <img
-            src="/img/feather.jpg"
+            src="/img/illustration/4.webp"
             alt=""
             loading="lazy"
             class="stills-img"

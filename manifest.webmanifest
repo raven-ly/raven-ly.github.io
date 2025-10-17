@@ -2,8 +2,8 @@
   "name": "LEE CUI",
   "short_name": "LEE CUI",
   "lang": "en-us",
-  "theme_color": "white",
-  "background_color": "white",
+  "theme_color": "#222222",
+  "background_color": "#222222",
   "icons": [{
     "src": "/images/icon_hu0c096fd88411ae42cd0d948d93861e86_38487_192x192_fill_lanczos_center_3.png",
     "sizes": "192x192",
