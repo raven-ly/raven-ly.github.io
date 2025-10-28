@@ -40,17 +40,12 @@
       <link>/post/mirror/</link>
       <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
       <guid>/post/mirror/</guid>
-      <description>
-
-
-
-
-
-  
-  &lt;details class=&#34;print:hidden xl:hidden&#34; &gt;
-    &lt;summary&gt;Table of Contents&lt;/summary&gt;
-    &lt;div class=&#34;text-sm&#34;&gt;
-      &lt;nav id=&#34;TableOfContents&#34;&gt;
+      <description>&lt;nav id=&#34;TableOfContents&#34; class=&#34;nav flex-column&#34;&gt;
+  &lt;div class=&#34;toc-header&#34;&gt;
+    &lt;h2&gt;Roadmap&lt;/h2&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;toc-body&#34;&gt;
+    &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
     &lt;li&gt;&lt;a href=&#34;#challenge&#34;&gt;Challenge&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#my-unique-approach&#34;&gt;My Unique Approach&lt;/a&gt;
@@ -67,8 +62,10 @@
     &lt;li&gt;&lt;a href=&#34;#credits&#34;&gt;Credits&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-    &lt;/div&gt;
-  &lt;/details&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+
+
 
 
 
