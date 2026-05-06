@@ -597,6 +597,7 @@
           <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
               
   <div class="fullscreen-image">
+      <div class="bg"></div>
     <img
       id="randomImage"
       src=""
@@ -622,19 +623,25 @@
         '/img/full-screen-img/my_planet_full.webp',
         '/img/full-screen-img/sailing-full.webp',
         '/img/full-screen-img/coral.webp',
-        '/img/full-screen-img/mirror-tb.webp',
-         '/img/full-screen-img/cali-sunset-witch-full.webp'
+        '/img/full-screen-img/mirror-full.webp',
+        '/img/full-screen-img/mirror-2-full.webp',
+        '/img/full-screen-img/cali-sunset-witch-full.webp',
+        '/img/full-screen-img/floating-dream-full.webp'
       ];
   
   
   
       
       const randomIndex = Math.floor(Math.random() * images.length);
-      const imgElement = document.getElementById('randomImage');
-      imgElement.src = images[randomIndex];
-      imgElement.onload = () => {
-        imgElement.style.opacity = 1;
-      };
+  const imgElement = document.getElementById('randomImage');
+  const bg = document.querySelector('.bg');
+  
+  imgElement.onload = () => {
+    bg.style.backgroundImage = `url(${imgElement.src})`;
+    imgElement.style.opacity = 1;
+  };
+  
+  imgElement.src = images[randomIndex]; 
   
       
        const hours = new Date().getHours();
