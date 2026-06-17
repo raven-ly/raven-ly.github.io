@@ -643,19 +643,45 @@
   
   imgElement.src = images[randomIndex]; 
   
-      
-       const hours = new Date().getHours();
-       let greeting = '';
+   
   
-       if (hours >= 5 && hours < 12) {
-         greeting = 'Good morning!\nWelcome to my Leeland!';
-       } else if (hours >= 12 && hours < 18) {
-         greeting = 'Good afternoon!\nEntering my Leeland!';
-       } else if (hours >= 18 && hours < 22) {
-         greeting = 'Good evening!\nWelcome to my Leeland!';
-       } else {
-         greeting = 'Good night!\nStay in my Leeland!';
-       }
+  const hour = new Date().getHours();
+  
+  const period =
+    hour >= 5  && hour < 12 ? 'morning'   :
+    hour >= 12 && hour < 18 ? 'afternoon' :
+    hour >= 18 && hour < 22 ? 'evening'   : 'night';
+  
+  const greetings = {
+    morning: [
+      "Good morning!",
+      "Morning! Hope you slept well.",
+      "Rise and shine!"
+    ],
+  
+    afternoon: [
+      "Good afternoon!",
+      "Hope your day's going well.",
+      "Keep going, you've got this."
+    ],
+  
+    evening: [
+      "Good evening!",
+      "Hey, how was your day?",
+      "Evening! Time to relax."
+    ],
+  
+    night: [
+      "Hey, night owl!",
+      "Still awake?",
+      "Working late?"
+    ],
+  };
+  
+  const pool = greetings[period];
+  const greeting = pool[Math.floor(Math.random() * pool.length)];
+  
+  
   
        
        const greetingEl = document.getElementById('greeting');
