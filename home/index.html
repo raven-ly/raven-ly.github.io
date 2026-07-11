@@ -521,12 +521,11 @@
   padding: 0;
 }
 </style>
-<div id="video-block" class="fullscreen-video" >
-  <iframe 
-    src="https://player.vimeo.com/video/1015191873?autoplay=1&muted=1&loop=1&background=1"
-    style=""
+<div id="video-block" class="fullscreen-video">
+  <iframe
+    id="hero-video"
     frameborder="0"
-    allow="autoplay;"
+    allow="autoplay"
     allowfullscreen>
   </iframe>
 </div>
@@ -701,9 +700,21 @@
 
 </div>
 <script>
-  const showVideo = Math.random() < 0.1;
-  document.getElementById("video-block").style.display = showVideo ? "block" : "none";
-  document.getElementById("image-block").style.display = showVideo ? "none" : "block";
+const showVideo = Math.random() < 0.16;
+
+// Randomly choose a Vimeo video
+const videos = [
+  "1015191873",
+  "1208960641"
+];
+
+const randomVideo = videos[Math.floor(Math.random() * videos.length)];
+
+document.getElementById("hero-video").src =
+  `https://player.vimeo.com/video/${randomVideo}?autoplay=1&muted=1&loop=1&background=1`;
+
+document.getElementById("video-block").style.display = showVideo ? "block" : "none";
+document.getElementById("image-block").style.display = showVideo ? "none" : "block";
 </script>
 </div>
     
